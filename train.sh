@@ -1,0 +1,1 @@
+torchrun --nproc-per-node=2 train.py --stage mixed --last_stage_checkpoint /tank/nanoVLM/checkpoints/vlm_checkpoints/best_lp_warehouse_nanoVLM_siglip2-base-patch16-256_mp2_SmolLM2-360M-Instruct_2xGPU_499083samples_bs112_ep20_lr5e-05-5e-05_0626-194812

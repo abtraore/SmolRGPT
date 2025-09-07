@@ -1,0 +1,68 @@
+# Python-generated files
+__pycache__/
+.pytest_cache/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+*.pth
+.ruff_cache
+wandb/
+logs/
+*.csv
+
+.python-version
+pyproject.toml
+uv.lock
+
+.DS_Store
+
+
+notebooks/
+*.slurm
+
+benchmark_results.json
+
+osd_*
+
+*.json
+*.jsonl
+*.tar
+
+*.safetensors
+config.json
+
+env
+
+# Datasets 
+datasets/*
+!datasets/.gitkeep
+
+# Project
+downloader.py
+
+# Others
+SpatialRGPT-Bench
+best_*
+bak_*
+
+mix_*
+osd/*
+results_*
+weights
+*.ipynb
+
+SmolRGPT-ICCV2025-*
+
+# Checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+oid_v7
+*.txt
+
+open_image_dataset
