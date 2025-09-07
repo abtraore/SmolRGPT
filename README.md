@@ -162,7 +162,7 @@ To extract the normalized answer 2 classifiers (longformer) and a LLM (qwen) are
 python llm_extractor.py
 ```
 
-The script with generate `submission.csv` that can be evaluated on AI City Challange website.
+The script will generate `submission.csv` that can be evaluated on AI City Challange website.
 
 # Evaluate on spacial bench
 
