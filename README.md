@@ -158,7 +158,7 @@ The script will output `raw_output.csv`.
 
 2. Extract normalized answers using Qwen
 
-To extract the normalized answer 2 classifiers (longformer) and a LLM (qwen) are used. You can find the classifiers pretrained weights on [HuggingFace](https://huggingface.co/datasets/Abdrah/SmolRGPT-ICCV2025-Classifier-Weights/resolve/main/classifier_weights.tar). or you can train them using `train_classifier.py`. We used qwen-14b but you can use any of them if they can followed structured outputs from [Ollama](https://github.com/ollama/ollama). After seting up everything use:
+To extract the normalized answer 2 classifiers (longformer) and a LLM (qwen) are used. You can find the classifiers pretrained weights on [HuggingFace](https://huggingface.co/datasets/Abdrah/SmolRGPT-ICCV2025-Classifier-Weights/resolve/main/classifier_weights.tar). or you can train them using `train_classifier.py`. We used qwen-14b but you can use any of them if they can followed structured outputs from [Ollama](https://github.com/ollama/ollama). After setting up everything use:
 
 ```bash
 python llm_extractor.py
