@@ -11,7 +11,7 @@
   <font size="4">
     <b><a href="https://huggingface.co/collections/Abdrah/smolrgpt-checkpoints-6893bad56127440ef250486e">Checkpoints 🤗</a></b>&nbsp;&nbsp;&nbsp;
     <b><a href="https://huggingface.co/collections/Abdrah/smolrgpt-689399925331dfaddaf60bb2">Datasets 🤗</a></b>&nbsp;&nbsp;&nbsp;
-    <b><a href="#">Paper 📄</a></b>
+    <b><a href="https://arxiv.org/abs/2509.15490">Paper 📄</a></b>
   </font>
 </p>
 
