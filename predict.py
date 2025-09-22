@@ -15,6 +15,11 @@ from data.processors import get_tokenizer, get_image_processor, get_depth_proces
 from datasets import load_dataset
 from datasets import Features, Value
 
+from PIL import Image, ImageDraw, ImageFont
+import random
+import numpy as np
+import pycocotools.mask as mask_utils
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
@@ -133,6 +138,10 @@ def main():
         text_data = batch["text_data"]
         answer = batch["answer"]
         category = batch["category"]
+
+        print(images)
+
+        exit()
 
         encoded_prompt = tokenizer.apply_chat_template(
             text_data, tokenize=True, add_generation_prompt=True
