@@ -187,7 +187,15 @@ python evaluate_spacial_bench.py
 
 ## Citation
 ```
-Citation here
+@article{traore2025smolrgptefficientspatialreasoning,
+      title={SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters}, 
+      author={Abdarahmane Traore and Éric Hervet and Andy Couturier},
+      year={2025},
+      eprint={2509.15490},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.15490}, 
+}
 ```
 
 ## Acknowledgement
