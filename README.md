@@ -5,6 +5,8 @@
 
 ## SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters (ICCVW'25)
 
+<img src="assets/smol_example.png">
+
 <p align="center">
   <font size="4">
     <b><a href="https://huggingface.co/collections/Abdrah/smolrgpt-checkpoints-6893bad56127440ef250486e">Checkpoints 🤗</a></b>&nbsp;&nbsp;&nbsp;
