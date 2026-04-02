@@ -463,7 +463,7 @@ class VisionLanguageModel(nn.Module):
 
     @classmethod
     def from_pretrained(
-        cls, repo_id_or_path: str, *, revision: Optional[str] = None
+        cls, repo_id_or_path: str, *, revision: Optional[str] = None, stage: Optional[str] = None
     ) -> "VisionLanguageModel":
         """
         Load a VisionLanguageModel from a local directory or a repo on the Hugging Face Hub.
@@ -502,6 +502,10 @@ class VisionLanguageModel(nn.Module):
         # Load config
         with open(config_path, "r") as f:
             cfg = VLMConfig(**json.load(f))
+
+        # Override stage if provided (e.g. when resuming a checkpoint for a later training stage)
+        if stage is not None:
+            cfg.stage = stage
 
         # Initialize model without loading the backbone
         model = cls(cfg, load_backbone=False)

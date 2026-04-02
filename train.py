@@ -403,7 +403,7 @@ def train(train_cfg, vlm_cfg):
 
     # Initialize model
     if train_cfg.resume_from_vlm_checkpoint:
-        model = VisionLanguageModel.from_pretrained(vlm_cfg.vlm_checkpoint_path)
+        model = VisionLanguageModel.from_pretrained(vlm_cfg.vlm_checkpoint_path, stage=vlm_cfg.stage)
     else:
         model = VisionLanguageModel(
             vlm_cfg, load_backbone=vlm_cfg.vlm_load_backbone_weights
